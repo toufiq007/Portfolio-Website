@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <!-- Font Awesome css  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Style Sheet files -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+
+    <!-- Start header section -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about" onclick="toggleMenu();">About</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+                <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm <br> <span>Mostafiz Limon</span> </h2>
+            <h3>I'm a Front End Web Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+    <!-- End header section -->
+
+
+    <!-- Start about section -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Front End Web Developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi iste fuga ipsum in aut esse odit at
+                    vero excepturi. Itaque tempore doloremque iste perspiciatis dolorum praesentium totam modi dolor et
+                    eum, temporibus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque labore officiis
+                    similique ratione non mollitia soluta maxime consectetur provident natus? consequuntur possimus
+                    minus doloribus asperiores, ex error fugit nemo! Culpa, soluta eius. Laborum, dicta! Suscipit facere
+                    vero sint? <br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ullam
+                    dolorum at cupiditate impedit similique nulla error sequi vero dolore. Facilis delectus culpa
+                    incidunt eius eos sint earum ut itaque.</p>
+            </div>
+            <div class="w50">
+                <img src="img/img1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End about section -->
+
+
+    <!-- Start services section -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, atque!</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="img/icon1.png" alt="">
+                <h2>Web Design </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eius excepturi vero perferendis,
+                    qui doloribus quae nulla! Accusamus, exercitationem doloremque.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon2.png" alt="">
+                <h2>Web Development </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eius excepturi vero perferendis,
+                    qui doloribus quae nulla! Accusamus, exercitationem doloremque.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon3.png" alt="">
+                <h2>Android App </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eius excepturi vero perferendis,
+                    qui doloribus quae nulla! Accusamus, exercitationem doloremque.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon4.png" alt="">
+                <h2>Photography </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eius excepturi vero perferendis,
+                    qui doloribus quae nulla! Accusamus, exercitationem doloremque.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon5.png" alt="">
+                <h2>Content Writting </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eius excepturi vero perferendis,
+                    qui doloribus quae nulla! Accusamus, exercitationem doloremque.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon6.png" alt="">
+                <h2>Video Editing </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus eius excepturi vero perferendis,
+                    qui doloribus quae nulla! Accusamus, exercitationem doloremque.</p>
+            </div>
+        </div>
+    </section>
+    <!-- End services section -->
+
+
+    <!-- start work section -->
+    <section class="work" id="work">
+        <div class="heading white">
+            <h2>Our Latest Work</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, atque!</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <img src="img/product1.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="img/product2.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="img/product3.jpg" alt="">
+            </div>
+            <div class="workBx">
+                <img src="img/product4.jpg" alt="">
+            </div>
+        </div>
+        <div class="heading">
+            <a href="#" class="btn">View More</a>
+        </div>
+    </section>
+    <!-- End work section -->
+
+
+    <!-- start testimonial section -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, atque!</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In assumenda voluptatibus et, id nesciunt
+                    enim hic illum provident recusandae eveniet consequuntur dicta sequi mollitia corporis
+                    exercitationem. Dicta illum reiciendis error?</p>
+                <h3>Someone Famous <br><span>Creative Designer</span></h3>
+            </div>
+            <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In assumenda voluptatibus et, id nesciunt
+                    enim hic illum provident recusandae eveniet consequuntur dicta sequi mollitia corporis
+                    exercitationem. Dicta illum reiciendis error?</p>
+                <h3>Someone Famous <br> <span>Creative Designer</span></h3>
+            </div>
+        </div>
+    </section>
+    <!-- End testimonial section -->
+
+
+
+    <!-- start contact section -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, atque!</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>4671 Sugar Camp Road, <br>Owatonna, Minnesota, <br>55060</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>507-475-9094</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>mostafizurrahaman787@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form action="#">
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                    <input type="email" name="" placeholder="Email">
+                    <textarea placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End contact section -->
+
+
+    <!-- Start copyright section -->
+    <div class="copyright">
+        <p>Copyright &copy 2020 Online Tutorials. All Right Reserved.</p>
+    </div>
+    <!-- End copyright section -->
+
+
+    <!--------------------javascript files ----------------------->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js">
+    </script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
